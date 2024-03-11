@@ -1,0 +1,1 @@
+g++ main.cpp -o harvest.exe -O1 -Wall -Wno-missing-braces -I ./include/ -I ./Resource/ -L ./lib/ -lraylib -lopengl32 -lgdi32 -lwinmm -D_GLIBCXX_DEBUG -static -static-libgcc -static-libstdc++
